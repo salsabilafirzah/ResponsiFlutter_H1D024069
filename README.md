@@ -85,13 +85,12 @@ Aplikasi menerapkan pola arsitektur MVVM untuk memisahkan antarmuka pengguna, lo
 
 ## 4. Screenshot Aplikasi
 
-Berikut adalah dokumentasi tampilan antarmuka aplikasi per bagian sesuai dengan spesifikasi yang diminta:
+Penjelasan singkat:
 
-| No | Bagian Layar | Deskripsi | Screenshot |
-|:--:|:---|:---|:---:|
-| 1 | **Home / Weather Screen (Bagian Atas)** | Menampilkan nama kota terpilih, kondisi cuaca terkini, ikon cuaca, suhu saat ini, dan tombol toggle favorit. | *(Tempelkan Screenshot di sini)* |
-| 2 | **Informasi Tambahan Cuaca** | Menampilkan rincian suhu yang dirasakan, kelembapan udara, kecepatan angin, dan curah hujan. | *(Tempelkan Screenshot di sini)* |
-| 3 | **Perkiraan Cuaca Harian (Forecast)** | Menampilkan daftar perkiraan cuaca 7 hari ke depan lengkap dengan tanggal, kondisi cuaca, peluang hujan, serta suhu maksimum dan minimum. | *(Tempelkan Screenshot di sini)* |
-| 4 | **Search Screen (Pencarian Kota)** | Menampilkan kolom input pencarian kota beserta daftar hasil pencarian dari Geocoding API lengkap dengan koordinat dan tombol favorit. | *(Tempelkan Screenshot di sini)* |
-| 5 | **Lokasi Favorit & Riwayat Pencarian** | Menampilkan daftar lokasi favorit yang tersimpan di penyimpanan lokal dan riwayat pencarian terakhir pengguna. | *(Tempelkan Screenshot di sini)* |
-| 6 | **Kondisi Loading & Penanganan Error** | Menampilkan visual indikator saat data sedang dimuat dari API atau tampilan pesan error saat terjadi kendala jaringan. | *(Tempelkan Screenshot di sini)* |
+* **Home / Weather Screen**: Menampilkan nama kota yang sedang dipilih, kondisi cuaca terkini, suhu saat ini, serta informasi tambahan seperti suhu yang dirasakan, kelembapan udara, kecepatan angin, dan curah hujan.
+* **Detail & Daily Forecast**: Menampilkan perkiraan cuaca 7 hari ke depan secara dinamis lengkap dengan ikon kondisi, peluang hujan maksimum harian, serta rentang suhu maksimum dan minimum.
+* **Search / Location Screen**: Menyediakan input pencarian kota berbasis Open-Meteo Geocoding API, menampilkan hasil pencarian koordinat, serta daftar lokasi favorit dan riwayat pencarian yang tersimpan di local storage.
+
+| Home / Weather Screen | Detail & Daily Forecast | Search / Location Screen |
+| :---: | :---: | :---: |
+| *(Tampilkan Screenshot Home Screen)* | *(Tampilkan Screenshot Forecast)* | *(Tampilkan Screenshot Search)* |
