@@ -88,9 +88,9 @@ Aplikasi menerapkan pola arsitektur MVVM untuk memisahkan antarmuka pengguna, lo
 Penjelasan singkat:
 
 * **Home / Weather Screen**: Menampilkan seluruh informasi cuaca utama dalam satu layar, mencakup nama kota yang sedang dipilih, kondisi cuaca terkini dengan ikon representatif, suhu saat ini, kartu informasi tambahan (suhu yang dirasakan, kelembapan udara, kecepatan angin, curah hujan), serta daftar perkiraan cuaca harian 7 hari ke depan.
-* **Search / Location Screen**: Menyediakan input pencarian kota berbasis Open-Meteo Geocoding API secara real-time, menampilkan daftar hasil pencarian lokasi lengkap dengan koordinat, serta daftar lokasi favorit dan riwayat pencarian yang tersimpan di penyimpanan lokal (*SharedPreferences*).
-* **Kondisi Khusus (Loading & Error State)**: Menampilkan visual indikator pemuatan (*loading indicator*) saat mengambil data dari API dan antarmuka penanganan kesalahan (*error state*) saat koneksi internet terputus disertai tombol coba lagi (*retry*).
+* **Search / Location Screen**: Menyediakan input pencarian kota berbasis Open-Meteo Geocoding API secara real-time yang menampilkan daftar hasil pencarian lokasi lengkap dengan informasi wilayah, negara, dan koordinat geografis.
+* **Lokasi Favorit & Riwayat Pencarian**: Menampilkan daftar kota favorit yang disimpan secara persisten di penyimpanan lokal (*SharedPreferences*) serta daftar riwayat pencarian pengguna lengkap dengan opsi hapus riwayat.
 
-| Home / Weather Screen | Search / Location Screen | Kondisi Loading & Error State |
+| Home / Weather Screen | Search / Location Screen | Lokasi Favorit & Riwayat Pencarian |
 | :---: | :---: | :---: |
-| *(Tampilkan Screenshot Home Screen)* | *(Tampilkan Screenshot Search Screen)* | *(Tampilkan Screenshot Loading/Error)* |
+| *(Tampilkan Screenshot Home Screen)* | *(Tampilkan Screenshot Search Screen)* | *(Tampilkan Screenshot Favorit & Riwayat)* |
