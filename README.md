@@ -3,8 +3,8 @@
 
 - **Nama**: Salsabila Firzah
 - **NIM**: H1D024069
-- **Shift Awal**: 
-- **Shift Akhir**: 
+- **Shift Awal**: H
+- **Shift Akhir**: D
 
 ---
 
