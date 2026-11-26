@@ -93,4 +93,4 @@ Penjelasan singkat:
 
 | Home / Weather Screen | Search / Location Screen | Lokasi Favorit & Riwayat Pencarian |
 | :---: | :---: | :---: |
-| *(Tampilkan Screenshot Home Screen)* | *(Tampilkan Screenshot Search Screen)* | *(Tampilkan Screenshot Favorit & Riwayat)* |
+| <img src="screenshots/home_screen.jpg" width="260" alt="Home / Weather Screen" /> | <img src="screenshots/search_screen.jpg" width="260" alt="Search / Location Screen" /> | <img src="screenshots/favorite_history_screen.jpg" width="260" alt="Lokasi Favorit & Riwayat Pencarian" /> |
