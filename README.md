@@ -87,10 +87,17 @@ Aplikasi menerapkan pola arsitektur MVVM untuk memisahkan antarmuka pengguna, lo
 
 Penjelasan singkat:
 
-* **Home / Weather Screen**: Menampilkan nama kota yang sedang dipilih, kondisi cuaca terkini, suhu saat ini, serta informasi tambahan seperti suhu yang dirasakan, kelembapan udara, kecepatan angin, dan curah hujan.
-* **Detail & Daily Forecast**: Menampilkan perkiraan cuaca 7 hari ke depan secara dinamis lengkap dengan ikon kondisi, peluang hujan maksimum harian, serta rentang suhu maksimum dan minimum.
-* **Search / Location Screen**: Menyediakan input pencarian kota berbasis Open-Meteo Geocoding API, menampilkan hasil pencarian koordinat, serta daftar lokasi favorit dan riwayat pencarian yang tersimpan di local storage.
+* **Home Screen (Cuaca Terkini)**: Menampilkan nama kota yang dipilih, kondisi cuaca terkini dengan ikon representatif, suhu aktual saat ini, serta tombol bintang untuk menambahkan kota ke daftar favorit.
+* **Informasi Tambahan Cuaca**: Menampilkan kartu rincian parameter cuaca yang mencakup suhu yang dirasakan (`apparent_temperature`), kelembapan udara (`relative_humidity_2m`), kecepatan angin (`wind_speed_10m`), dan curah hujan (`precipitation`).
+* **Prakiraan Cuaca Harian**: Menampilkan daftar ramalan cuaca 7 hari ke depan lengkap dengan hari/tanggal, ringkasan cuaca, peluang hujan maksimum (`precipitation_probability_max`), serta rentang suhu maksimum dan minimum harian.
+* **Pencarian Kota (Geocoding API)**: Menampilkan antarmuka input pencarian kota beserta daftar hasil pencarian dinamis dari Open-Meteo Geocoding API lengkap dengan nama wilayah, negara, dan koordinat.
+* **Lokasi Favorit & Riwayat Pencarian**: Menampilkan daftar lokasi favorit yang tersimpan di penyimpanan lokal (*SharedPreferences*) serta daftar riwayat pencarian pengguna dengan tombol hapus riwayat.
+* **Kondisi Khusus (Loading & Error State)**: Menampilkan animasi indikator saat memuat data dari API serta tampilan penanganan error saat koneksi internet terputus disertai tombol coba lagi (*retry*).
 
-| Home / Weather Screen | Detail & Daily Forecast | Search / Location Screen |
+| Home Screen (Cuaca Terkini) | Informasi Tambahan Cuaca | Prakiraan Cuaca Harian |
 | :---: | :---: | :---: |
-| *(Tampilkan Screenshot Home Screen)* | *(Tampilkan Screenshot Forecast)* | *(Tampilkan Screenshot Search)* |
+| *(Tampilkan Screenshot Home Screen)* | *(Tampilkan Screenshot Info Tambahan)* | *(Tampilkan Screenshot Prakiraan Harian)* |
+
+| Pencarian Kota (Geocoding API) | Lokasi Favorit & Riwayat | Kondisi Loading & Error State |
+| :---: | :---: | :---: |
+| *(Tampilkan Screenshot Hasil Pencarian)* | *(Tampilkan Screenshot Favorit/Riwayat)* | *(Tampilkan Screenshot Loading/Error)* |
